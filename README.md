@@ -75,13 +75,6 @@ project-root/
 
 ---
 
-##  Deployment
-
-This is a frontend-only static site and can be deployed on:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Netlify](https://www.netlify.com/)
-
 🔗 **Live Demo**: [https://task-1-keshavsoft.netlify.app/](https://task-1-keshavsoft.netlify.app/)
 
 ---
