@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Keshav Soft</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    .tilt-card {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 16px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.18);
+      padding: 2rem;
+      transition: transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s;
+      will-change: transform;
+    }
+    .tilt-card:hover {
+      transform: perspective(900px) rotateY(12deg) rotateX(8deg) scale(1.03);
+      box-shadow: 0 30px 60px rgba(0,0,0,0.28);
+    }
+    .navbar {
+      box-shadow: 0 2px 10px rgba(25, 118, 210, 0.08);
+    }
+    footer {
+      font-size: 0.95rem;
+    }
+    @media (max-width: 768px) {
+      .tilt-card {
+        transform: none !important;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Keshav Soft</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section class="py-5 bg-light text-center">
+    <div class="container">
+      <h2 class="fw-bold mb-3">About Keshav Soft</h2>
+      <p class="lead">Keshav Soft delivers innovative software solutions that empower businesses to grow and succeed. Our team is passionate about technology and committed to excellence.</p>
+    </div>
+  </section>
+
+  <!-- Services Section with 3D Cards -->
+  <section class="py-5">
+    <div class="container">
+      <h3 class="mb-4 text-center">Our Services</h3>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="tilt-card h-100 text-center">
+            <img src="assets/Tech.jpg" alt="Software Development" width="80" height="80" class="mb-3 rounded-circle shadow object-fit-cover">
+            <h5 class="card-title">Custom Software Development</h5>
+            <p class="card-text">Tailored solutions to meet your unique business needs, from web apps to enterprise systems.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="tilt-card h-100 text-center">
+            <img src="assets/Design.jpg" alt="Cloud Integration" width="80" height="80" class="mb-3 rounded-circle shadow object-fit-cover">
+            <h5 class="card-title">Cloud Integration</h5>
+            <p class="card-text">Seamless integration with cloud platforms to boost scalability, security, and performance.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="tilt-card h-100 text-center">
+            <img src="assets/Responsive.jpg" alt="Business Analytics" width="80" height="80" class="mb-3 rounded-circle shadow object-fit-cover">
+            <h5 class="card-title">Business Analytics</h5>
+            <p class="card-text">Data-driven insights to help you make smarter decisions and grow your business.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Team Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h3 class="mb-4 text-center">Our Team</h3>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4">
+          <div class="tilt-card h-100 text-center">
+            <img src="assets/preethi.png" alt="Team Member 1" width="80" height="80" class="mb-3 rounded-circle shadow object-fit-cover">
+            <h5 class="mb-1">Priya Sharma</h5>
+            <p class="text-muted mb-0">Lead Developer</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="tilt-card h-100 text-center">
+            <img src="assets/rahul.png" alt="Team Member 2" width="80" height="80" class="mb-3 rounded-circle shadow object-fit-cover">
+            <h5 class="mb-1">Rahul Verma</h5>
+            <p class="text-muted mb-0">UI/UX Designer</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="tilt-card h-100 text-center">
+            <img src="assets/priya.jpg" alt="Team Member 3" width="80" height="80" class="mb-3 rounded-circle shadow object-fit-cover">
+            <h5 class="mb-1">Sneha Patel</h5>
+            <p class="text-muted mb-0">Project Manager</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Our Values Section -->
+<section class="py-5">
+  <div class="container">
+    <h3 class="mb-4 text-center">Why Choose Keshav Soft?</h3>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="tilt-card h-100 text-center">
+          <i class="bi bi-lightbulb display-4 text-primary mb-3"></i>
+          <h5 class="mb-2">Innovation</h5>
+          <p class="mb-0">We embrace new technologies and creative thinking to deliver unique solutions.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="tilt-card h-100 text-center">
+          <i class="bi bi-people display-4 text-primary mb-3"></i>
+          <h5 class="mb-2">Collaboration</h5>
+          <p class="mb-0">We work closely with our clients to ensure their vision becomes reality.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="tilt-card h-100 text-center">
+          <i class="bi bi-award display-4 text-primary mb-3"></i>
+          <h5 class="mb-2">Excellence</h5>
+          <p class="mb-0">We are committed to delivering high-quality results, every time.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white text-center py-3 mt-5">
+    <div class="container">
+      <small>&copy; 2024 Keshav Soft. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
