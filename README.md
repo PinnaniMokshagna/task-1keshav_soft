@@ -87,12 +87,5 @@ project-root/
 -  Developed a fully functional, responsive 3-page site
 -  No pre-built Bootstrap examples copied
 
----
-
-##  Contact
-
-For inquiries or feedback, please visit the [Contact page](https://task-1-keshavsoft.netlify.app/contact) or reach out via the provided details.
-
----
-
+--
 > This website is a demonstration project for learning and evaluation purposes and does not represent a real company.
